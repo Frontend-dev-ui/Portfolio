@@ -1,0 +1,25 @@
+
+   .heading-gradient {
+    background: linear-gradient(90deg, #8EC5FC, #E0C3FC); 
+    border-radius: 8px;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 3px 3px 0 2px rgb(110, 70, 219),
+                0px 0px 10px 3px rgba(140, 82, 255, 0.6);
+}
+.heading-gradient::after{
+   content: '';
+   position: absolute;
+   left: 50%;
+   bottom: 0;
+   width: 0;
+   height: 4px;
+   background-color: #1c2543; 
+   transition: all 0.4s ease;
+   border-radius: 50px;
+}
+.heading-gradient:hover::after{
+   width: 100%;
+   left: 0;
+}

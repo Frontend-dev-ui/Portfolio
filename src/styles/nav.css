@@ -1,0 +1,48 @@
+.navitem{
+   position: relative;
+   overflow:hidden;
+   -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility; 
+}
+
+.navitem::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color:#a69fdb;
+    transition: all 0.4s ease;
+    border-radius: 20px;
+ }
+ .navitem:hover::after{
+    width: 100%;
+    left: 0;
+ }
+
+ .navscrolled{
+   background-color: #b9aadf;
+   transition: all 0.3s ease;
+   
+ }
+
+ @media (min-width:768px) {
+   .navscrolled .navitem{
+      color: #202668;
+      transition: all 0.3s ease;
+    }
+    .navscrolled .navitem::after{
+      background-color: #2e3754; 
+    }
+    .navscrolled .navitem:hover{
+     color: #6d22a7;
+    }
+ }
+
+ .text-shadow-lg {
+   text-shadow: 2px 2px 2px rgba(211, 33, 196, 0.6); 
+                
+ }
+ 

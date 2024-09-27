@@ -1,0 +1,163 @@
+.headinggradient {
+    background: linear-gradient(90deg, #8EC5FC, #E0C3FC); 
+    border-radius: 8px;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 3px 3px 0 2px rgb(110, 70, 219),
+                0px 0px 10px 3px rgba(140, 82, 255, 0.6);
+}
+
+.headinggradient::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 4px; 
+    background-color: #1c2543; 
+    transition: all 0.4s ease;
+    border-radius: 50px;
+  }
+  
+  .headinggradient:hover::after {
+    left: 0;
+    width: 100%;
+  }
+  .glowtxt {
+    background: linear-gradient(109.6deg, rgb(243, 64, 123) 11.2%, rgb(157, 55, 206) 91.2%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    display: inline-block; 
+     z-index: 1;
+    
+}
+
+.project:hover .glowtxt{
+  background: linear-gradient(57.4deg, rgb(243, 194, 170) 4.6%, rgb(228, 155, 189) 26%, rgb(193, 165, 210) 49.1%, rgb(157, 192, 225) 86.5%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  transform: scale(1.1);
+  transition: all  0.4s ease ; 
+}
+.project:hover .blogimg{
+  box-shadow: 3px 8px 12px 6px rgba(236, 213, 213, 0.251);
+  transform: scale(1.01);
+  transition: all  0.4s ease ; 
+}
+.blogimg{
+  box-shadow: 1px 10px 12px 5px rgba(0, 0, 0, 0.164);
+  z-index: 1;
+}
+  
+ .project {
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    background: linear-gradient(to top, rgb(161, 140, 209) 0%, rgb(251, 194, 235) 100%);
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px 4px rgba(208, 192, 237, 0.279);
+    overflow: hidden;
+    z-index: 1;
+   }
+ 
+   .overlay{
+    background: linear-gradient(89.8deg, rgb(195, 67, 129) 11%, rgb(90, 43, 186) 83.4%);
+    bottom: 0;
+    border-radius: 20px;
+   }
+   .project:hover .overlay{
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s ease;
+    
+   }
+  .project:hover .gitContact{
+    background: linear-gradient(57.4deg, rgb(243, 189, 161) 4.6%, rgb(221, 147, 182) 26%, rgb(193, 165, 210) 49.1%, rgb(157, 192, 225) 86.5%);
+    
+    box-shadow: 2px 2px 7px 2px rgba(204, 192, 235, 0.418);
+    transform: scale(1.03);
+    transition: all  0.4s ease ; 
+  }
+ 
+  
+ 
+  .blogcontent{
+    color: #5c1dba;
+  }
+  .project:hover .blogcontent{
+    color: #E0C3FC;
+    transform: scale(1.03);
+    transition: all  0.4s ease ; 
+  }
+
+
+
+
+
+
+
+.skill{
+  z-index: 1;
+}
+.project:hover .skill img{
+  background-color: #E0C3FC;
+  box-shadow: 5px 8px 13px 2px rgba(199, 187, 222, 0.425);
+  transform: scale(1.02);
+  transition: all  0.4s ease ; 
+}
+.skill img{
+  z-index: 1;
+  height: 8.5vh;
+  width: 8.5vh;
+  box-shadow: 5px 8px 10px 4px rgba(18, 17, 20, 0.425);
+  border-radius: 10px;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px)  {
+  .skill img{
+    height: 10vh;
+    width: 10vh;
+  }
+}
+@media (max-width: 768px)   {
+  .skill img{
+    height: 8.5vh;
+    width: 8.5vh;
+  }
+  .gitContact {
+    width: 15vw;
+    height: auto;
+    min-width: 60px;
+}
+}
+
+.gitContact{
+  height: 7vh;
+  width: 3.5vw;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  min-width: 50px; 
+  min-height: 50px;
+  box-shadow: 4px 4px 9px 3px rgba(19, 18, 22, 0.279);
+  background: linear-gradient(109.6deg, rgb(229, 68, 121) 11.2%, rgb(157, 55, 206) 91.2%);
+}
+.gitContact img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+  transform: scale(1);  
+  transition: transform 0.5s ease; 
+  z-index: 1;
+}
+.gitContact:hover{
+  width: 13vw;
+}
+.gitContact:hover img{
+  transform:scale(0.8) rotate(360deg);
+}
