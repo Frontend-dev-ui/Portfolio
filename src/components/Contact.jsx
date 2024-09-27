@@ -138,7 +138,7 @@ const heroTextVariants6 = {
         </div>
         </motion.a>
         
-        <motion.a href="https://drive.google.com/file/d/1FcP4KP7QenGQqpV6xF6oeN1yJtmFkOMS/view?usp=sharing" target="_blank" rel="noopener noreferrer" download="Sakshi_Kesharwani_Resume.pdf" initial="hidden"
+        <motion.a href="https://drive.google.com/file/d/1U-KmQwJsKRp8lPpQw9oPBNX5JDZDc9Oc/view?usp=sharing" target="_blank" rel="noopener noreferrer" download="Sakshi_Kesharwani_Resume.pdf" initial="hidden"
         animate={animationTrigger ? 'visible' : 'hidden'}
         onViewportEnter={() => setAnimationTrigger(true)}
         onViewportLeave={() => setAnimationTrigger(false)}
