@@ -42,8 +42,12 @@ function Work() {
         },
         {
             title:"PLM Version Upgrade Project :",
-            content:" Contributed to upgrading a legacy PLM system by updating core functionalities using Java, JSPs, and Java Programming Objects. Optimized web services and refactored legacy code, improving scalability, maintainability, and reducing downtime. Worked closely with users and cross-functional teams to gather requirements, incorporate feedback, and ensure the development of solutions that meet user needs and enhance overall satisfaction."
+            content:" Contributed to upgrading a legacy PLM system by updating core functionalities using Java, JSPs, and Java Programming Objects. Optimized web services and refactored legacy code, improving scalability, maintainability, and reducing downtime."
         },
+        {
+          title:"Widget Development :",
+          content:" Developed custom widgets with React and JavaScript to enhance web application functionality and user engagement. Collaborated with users and cross-functional teams to gather requirements, ensuring solutions met user needs."
+        }
        
 
     ]
