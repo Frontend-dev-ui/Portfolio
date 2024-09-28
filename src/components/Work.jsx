@@ -38,7 +38,7 @@ function Work() {
         },
         {
             title:"News Application and Image Analytics Platform :",
-            content:" Contributed to a news app and image analytics platform using HTML, CSS, JavaScript, React, and Canvas API. Focused on building user-friendly interfaces, managing state with Context API, and handling API integrations for seamless functionality."   
+            content:" Contributed to a news app and image analytics platform using HTML, CSS, JavaScript, React , Appwrite , and Canvas API. Focused on building user-friendly interfaces, managing state with Context API, and handling API integrations for seamless functionality."   
         },
         {
             title:"PLM Version Upgrade Project :",
