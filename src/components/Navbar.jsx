@@ -77,7 +77,7 @@ useEffect(() => {
       <li  className='text-[#9299e6] tracking-wide font-medium text-[1.2rem] p-2 flex items-center hover:text-[#c6aefa] justify-center cursor-pointer  navitem'>{item.name}</li>
     </a>
   )}
-   <a href="https://drive.google.com/file/d/1h1d2LLxNa7RloqGAF1K9wpfsr5hJZyml/view?usp=sharing" target="_blank" rel="noopener noreferrer" download="Sakshi_Kesharwani_Resume.pdf">
+   <a href="https://drive.google.com/file/d/1x_R6e7v_rG5bW5gHRqO9Di-hC4x-ViDC/view?usp=sharing" target="_blank" rel="noopener noreferrer" download="Sakshi_Kesharwani_Resume.pdf">
    <li className='text-[#9299e6]  tracking-wide font-medium text-[1.2rem] p-2 flex items-center hover:text-[#c6aefa] justify-center cursor-pointer  navitem'>Resume</li>
   </a>
   
@@ -97,7 +97,7 @@ useEffect(() => {
       <li  className='text-[#9299e6] tracking-wide font-medium text-[1.2rem] p-2 flex items-center hover:text-[#c6aefa] justify-center cursor-pointer  navitem'>{item.name}</li>
     </a>
   )} 
-  <a href="https://drive.google.com/file/d/1h1d2LLxNa7RloqGAF1K9wpfsr5hJZyml/view?usp=sharing" target="_blank" rel="noopener noreferrer" download="Sakshi_Kesharwani_Resume.pdf">
+  <a href="https://drive.google.com/file/d/1x_R6e7v_rG5bW5gHRqO9Di-hC4x-ViDC/view?usp=sharing" target="_blank" rel="noopener noreferrer" download="Sakshi_Kesharwani_Resume.pdf">
     <li className='text-[#9299e6]  tracking-wide font-medium text-[1.2rem] p-2 flex items-center hover:text-[#c6aefa] justify-center cursor-pointer  navitem' onClick={()=>setshowmenu(false)}>Resume</li>
   </a>
     
