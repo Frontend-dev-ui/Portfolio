@@ -38,7 +38,7 @@ function About() {
     viewport={{ once: false }} variants={sectionVariants1} src={myimg} alt="" className='sm:w-[25vw] w-[35vw] rounded-xl' />
         <motion.p initial="hidden"
     whileInView="visible"
-    viewport={{ once: false }} variants={sectionVariants2} className='text-[1.1rem] text-justify sm:p-4 p-2 text-[#e0e0cc]'>Hello, I'm Sakshi, a dedicated frontend developer with 1.5 years of experience in building interactive web applications. I thrive on learning new technologies and refining my skills to create responsive designs. With a strong foundation in HTML, CSS, JavaScript and React.js . I bring clean, efficient code to life that creates a visually appealing user experience. I'm driven by a passion for innovation and committed to delivering exceptional web experiences.</motion.p>
+    viewport={{ once: false }} variants={sectionVariants2} className='text-[1.1rem] text-justify sm:p-4 p-2 text-[#e0e0cc]'>Hello, I'm Sakshi, a dedicated frontend developer with an experience in building interactive web applications. I thrive on learning new technologies and refining my skills to create responsive designs. With a strong foundation in HTML, CSS, JavaScript and React.js . I bring clean, efficient code to life that creates a visually appealing user experience. I'm driven by a passion for innovation and committed to delivering exceptional web experiences.</motion.p>
      </div> 
       
     </div>
